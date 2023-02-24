@@ -1,0 +1,84 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+body {
+    height : 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(199,199,199);
+}
+
+.login{
+    width: 360px;
+    height: min-content;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.login h1{
+    font-family: "sans";
+}
+
+.login h5{
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.login input{
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+.login form input[type = "submit"]{
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(64, 149, 219);
+    color: rgb(255,255,255);
+}
+
+.register h3{
+    text-align: center;
+    font-size: px;
+    font-family: "Sans";
+}
+
+.register h1{
+    font-family: "Sans";
+}
+
+.temp h3{
+    font-size: 10px;
+}
+
+.card{
+    display: flex;
+    background-color: white;
+    font-family: "Sans";
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: auto;
+    margin-bottom: 1px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.footer{
+    font-size: 12px;
+    font-weight: 200;
+    text-decoration: none;
+    
+}
+
+/* .test h5{
+    font-size: 20px;
+    font-weight: normal;
+
+} */

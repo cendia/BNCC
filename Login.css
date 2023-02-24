@@ -1,0 +1,30 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    text-align: center;
+    padding: 10px;
+}
+
+.main h1{
+    font-family: "sans";
+}
+
+.main h5{
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.main input{
+    margin-bottom: 5px;
+}
